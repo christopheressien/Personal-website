@@ -1,0 +1,27 @@
+
+@import "tailwindcss";
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.text-shadow-custom {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+@media (min-width: 600px) and (max-width: 1120px) {
+    .box-small {
+        width: 300px;
+    }
+}
+@media (min-width: 630px) and (max-width: 1000px) {
+    .box-small {
+        width: 250px;
+    }
+}
+@media (min-width: 630px) and (max-width: 800px) {
+    .box-small {
+        width: 200px;
+        font-size: 18px;
+        padding:20px;
+    }
+}
